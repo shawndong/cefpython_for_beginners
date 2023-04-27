@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function python_answer_sum(a, b, sum) {
+            alert(a + " + " + b + " = " + sum);
+        }
+        window.onload = function() {
+            ask_python_sum(1, 2, python_answer_sum);
+        };
+    </script>
+</head>
+
+<body>
+    <h1>JS call Python functions and get return value</h1>
+    After the page is loaded, call the binding Python function and pass callback function in JS.<br><br>
+    Then the Python function call the callback function in JS to return the value.<br><br>
+
+    <br><br>
+    Click on the following link for more information:<br>
+    <a href="https://github.com/cztomczak/cefpython/blob/master/docs/Tutorial.md#javascript-integration">https://github.com/cztomczak/cefpython/blob/master/docs/Tutorial.md#javascript-integration</a><br>
+
+</body>
+</html>
