@@ -6,5 +6,7 @@ However, due to a lack of experience in both CEF and web development, it took me
 
 So I have written some small programs in the hope of providing some help to beginners of cefpython and helping them enter the development of cefpython as soon as possible.
 
+Codes run in a Windows environment.
+
 Shawn Dong
 
